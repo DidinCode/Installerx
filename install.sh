@@ -66,7 +66,7 @@ install_theme() {
     read -r SELECT_THEME
     case "$SELECT_THEME" in
       1)
-        THEME_URL=$(echo -e "https://github.com/LeXcZxMoDz9/Installerlex/raw/main/C2.zip")
+        THEME_URL=$(echo -e "https://github.com/DidinCode/Installerx/raw/main/C2.zip")
         break
         ;;
       2)
@@ -74,7 +74,7 @@ install_theme() {
         break
         ;;
       3)
-        THEME_URL=$(echo -e "https://github.com/LeXcZxMoDz9/Installerlex/raw/main/C3.zip")
+        THEME_URL=$(echo -e "https://github.com/DidinCode/Installerx/raw/main/C3.zip")
         break
         ;; 
       x)
@@ -200,7 +200,7 @@ uninstall_theme() {
   echo -e "${BLUE}[+]                    DELETE THEME                 [+]${NC}"
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e "                                                       "
-  bash <(curl https://raw.githubusercontent.com/LeXcZxMoDz9/Installerlex/main/uninstall.sh)
+  bash <(curl https://raw.githubusercontent.com/DidinCode/Installerx/main/uninstall.sh)
   echo -e "                                                       "
   echo -e "${GREEN}[+] =============================================== [+]${NC}"
   echo -e "${GREEN}[+]                 DELETE THEME SUKSES             [+]${NC}"
